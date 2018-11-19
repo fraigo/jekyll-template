@@ -1,0 +1,19 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  {% for item in site.data.pages %}
+  <url>
+    <loc>
+    {{ site.data.app.url }}{{ item.link }}
+    </loc>
+    <changefreq>weekly</changefreq>
+    <lastmod>{{ site.data.app.date }}</lastmod>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>
+        {{ site.data.app.url }}/{{ item.imageUrl }}
+        </image:loc>
+        <image:caption>{{ item.description }}</image:caption>
+        <image:title>{{ item.name }}</image:title>
+    </image:image>
+  </url>
+  {% endfor %}
+</urlset>

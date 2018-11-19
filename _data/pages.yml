@@ -1,0 +1,20 @@
+- name: Home
+  link: ./
+  title: Home page
+  description: About page
+  imageUrl : assets/images/icon.png
+- name: Posts
+  link: posts.html
+  title: Posts page
+  description: Posts page
+  imageUrl : assets/images/icon.png
+- name: Authors
+  link: authors.html
+  title: Authors page
+  description: Authors page
+  imageUrl : assets/images/icon.png
+- name: About
+  link: about.html
+  title: About page
+  description: About page
+  imageUrl : assets/images/icon.png
