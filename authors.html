@@ -6,13 +6,13 @@ description: Page description
 <h2>Staff of authors</h2>
 
 <ul>
-    {% for author in site.authors %}
-      <li>
-          <h2><a href="{{ site.data.app.url }}{{ author.url }}">{{ author.name }}</a></h2>
-        <h3>{{ author.position }}</h3>
-        <p>{{ author.content | markdownify }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for author in site.authors %}
+    <li>
+      <h4><a href="{{ site.data.app.url }}{{ author.url }}">{{ author.name }}</a></h4>
+      <h5>{{ author.position }}</h5>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
 
 
