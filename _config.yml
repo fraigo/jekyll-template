@@ -18,4 +18,4 @@ defaults:
     values:
       layout: "default"
 
-exclude: ['README.md', 'Gemfile.lock', 'GemFile']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
